@@ -231,6 +231,7 @@ samp {
 pre {
     white-space: pre;
     white-space: pre-wrap;
+    height: 50px;
     word-wrap: break-word;
 
 }

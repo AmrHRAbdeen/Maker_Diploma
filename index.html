@@ -141,14 +141,52 @@
           <br>
           <br>
           <figure>
+           <a href="images/sublime.png" target="_blank"> 
             <img src="images/sublime.png" alt="Sublime" title="Sublime Used for Web Development" width="800px" height="600px">
             <figcaption style="font-size: 12px;">Screenshot of Sublime during development</figcaption>
           </figure>
+          </a>
           <br>
-         I keep tracking and pushing the updates to Github repo. <a href="https://github.com/AmrHRAbdeen/MakerTimeline"<span>MakerRepo</span></a> using <a href="https://git-scm.com/" target="_blank" >Git </a> version control system. I also edit the source file in Google Drive.
+         I keep tracking and pushing the updates to Github repo. <a href="https://github.com/AmrHRAbdeen/MakerTimeline"<span>MakerRepo</span></a> using <a href="https://git-scm.com/" target="_blank" >Git </a>CMD for version control system. I also edit the source file in Google Drive.
          <br>
          <br>
-         <img src="" alt="Git" title="Git used for updates"> 
+          <h4> Using Git CMD </h4>
+          <p> Change directory from root to my folder</p>
+         <pre class="Language-bash">
+            <code class="Language-bash">cd C:/Users/'Amr Abdeen'/'Google Drive'/'03-Amr Hassan Rashid Abdeen'</code>
+          </pre>
+          <br>
+          <p> Adding Folders/files to my repository</p>
+         <pre class="Language-bash">
+            <code class="Language-bash">git add .</code>
+          </pre>
+          <br>
+      <p> First commit</p>
+         <pre class="Language-bash">
+            <code class="Language-bash">git commit -m "initCommit"</code>
+          </pre>
+         <figure>
+         <a href="images/Git.png" target="_blank">
+           <img src="images/Git.png" alt="Git" title="Git used for version control" width="800px" height="600px"> 
+            <figcaption style="font-size: 12px;">Screenshot of Git CMD</figcaption>
+          </a>
+          </figure>
+          <br>
+        <p>Connect my local repo. with my Github Repo. </p>
+         <pre class="Language-bash">
+            <code class="Language-bash">git remote add MakerDrive https://github.com/AmrHRAbdeen/MakerTimeline.git</code>
+          </pre>
+          <br>
+          <p>Pushing my Local Repo. to Github </p>
+         <pre class="Language-bash">
+            <code class="Language-bash">git push --set-upstream MakerDrive master</code>
+          </pre>
+          <figure>
+         <a href="images/gitPush.png" target="_blank">
+           <img src="images/gitPush.png" alt="Git" title="Git used for version control" width="800px" height="600px"> 
+            <figcaption style="font-size: 12px;">Screenshot of Git CMD</figcaption>
+          </a>
+          </figure>
   </div>
   <!--End of Day Zero -->
 
@@ -178,64 +216,73 @@
 <!-- Day Two -->
   <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#dayTwo">Day Two - 14 Nov'2017 [US Embassy] </button>
     <div id="dayTwo" class="collapse" style="padding-top: 8px;">
-       In that day, I learnt about using CAD and 3D printing. 
-  
+      <h4 style="line-height: 3em;">Day Summary"CAD and 3D printing"</h4>
+      <p><span style="font-weight: bold;">3D printing: </span>
+       <a href="https://en.wikipedia.org/wiki/Fused_deposition_modeling" target="_blank">Fused Deposition Modelling (FDM) </a>
+       </p>
+        <p><span style="font-weight: bold;">STL : </span>Standard Tesselation Language used to save designs for 3D printing (extension).</p> 
+        <p><span style="font-weight: bold;">Slicing(Chop Shop): </span> From 3D to 2D ---> Creating the toolpath.</p>
+      <hr>
+      <h4> 3D printer components [FDM]:</h4>
+     
+     <ol>
+        <li>The Jet [ Hot End ]</li> 
+        <li>Feeder </li>
+        <li>Motion Stage : Delta and Cartesian </li> 
+        <li>Build platform </li>
+      </ol>
+      <div style="background-color: #e7f3fe;
+          border-left: 10px solid #2196F3; height: 50px; padding-top: 10px;">
+       <p style="text-align: center; padding-top: 2px;">You can print not only plastic but also metal!<a href="http://www.boeing.com/" target="_blank">BOEING</a> uses this technology for jet engines :O </p>
+     </div>
+      <hr>
+      <h4>Materials used in 3D printing:</h4>
+        <ol>
+          <li style="font-weight: bold;">PLA [ PolylacticAcid ]</li>  
+                <ul>
+                  <li>Easy to print</li> 
+                  <li>safe to print</li>
+                  <li>usen when strength is not critical.</li>    
+                  <li>Temp. used for it :170 -> 230 &deg;C,, Bed : 30 -70 &deg;C</li>
+                  <li>In Egypt : 1 Kilo of pla 750 LE ( 2017 )</li>
+                </ul>
+             <br>   
+          <li style="font-weight: bold;"> ABS [ Acrylonitrile butadiene styrene ]</li> 
+            <ul>
+                <li>Hard to print
+                <li>needs a heated platform 
+                <li>High strength application 
+                <li>High temp. Applications
+                <li>Temp. used for it :230 -> 270\280 ,, Bed: 110-130
+                <li>In market: LEGO toys.
+            </ul>
+            <br>  
+          <li style="font-weight: bold;"> PVA [polyvinyl alcohol]</li>
+              <ul><li>Frequently used with ABS</li></ul> 
+          <br>
+          <li style="font-weight: bold;"> Nylon</li>
+          </ol>
+      <hr>      
+      <h4>Terminologies for 3D printing:</h4>
+      <ol>
+          <li>Infill : determine which pattern to use according to your design.</li>      
+          <li>OverHang test</li>
+          <li>Bridging test</li>
+          <li>Layer Resolution = Layer Height.</li> 
+          <li>Teardrop </li>
+          <li>Raft: By default is 1 to 1.5 mm to maintain a smooth surface for the bottom of the design.</li>
+      </ol>
+      <hr>
+      <div style="background-color: #e7f3fe;
+          border-left: 10px solid #2196F3; height: 100px; padding-top: 10px;">
+        <ul>
+          <li><span style="font-weight: bold;;">3D printer:</span>[In Fusion 360] *select Bodies then Save as STL [ ASCII ].</li> 
+          <li><span style="font-weight: bold;"">Laser Cutter:</span> [In Fusion 360] *Select Sketch then Save as DXF.</li>
+        </ul>
+     </div>
     
-      CAD:
-        3D modelling : Fused Deposition Modelling (FDM)...
-        1- STL : Standard Tesselation Language : For 3D printing (extension) 
-        2- Slicing(Chop Shop) : From 3D to 2D ---> Creating the toolpath.
-      -----------------------------------------------------------------------
-      3D printer components [FDM]:
-     --------------------------
-      1-The Jet [ Hot End ] 
-        2-Feeder
-        3-Motion Stage : Delta and Cartesian 
-        4- Build platform
-        [ you can print not only plastic but also metal! BOING used this technology for jet engines :O ]
-      -----------------------------------------------------------------------------------------------------
-      * Materials:
-          1- PLA [ PolylacticAcid ] 
-            - Easy to print 
-            - safe to print
-            - usen when strength is not critical. 
-          Temp. used for it :170 -> 230 ,, Bed : 30 -70
-          In Egypt : 1 Kilo of pla 750 LE ( 2017 )
-          
-          2- ABS [ Acrylonitrile butadiene styrene ] 
-            - Hard to print
-            - needs a heated platform 
-            - High strength application 
-            - High temp. Applications
-          Temp. used for it :230 -> 270\280 ,, Bed: 110-130
-          used for LEGO toys.
-          
-          3- PVA [polyvinyl alcohol] : Frequently used with ABS
-          4- Nylon
-      ------------------------------------------------------------------------------------------------------------------      
-      Design for 3D printing :
-      ---------------------------
-      Infill : determine which pattern to use according to your design. 
-      
-      OverHang test
-      Bridging test
-      Layer Resolution = Layer Height 
-      Teardrop
-      Raft: By default is 1 to 1.5 mm to maintain a smooth surface for the bottom of the design.
-      -------------------------------------------------------------------------------------------------------------------
-      # IMP. Notes :
-      --------------
-      Fusion 360 to 3D print: select Bodies --> Right Click --> Save as STL [ ACSII ] 
-      Fusion 360 to Laser Cutter : Select Sketch --> Right Click --> Save as DXF...
-      ------------------------------------------------------------------------------------------------------
-      
-      
-          
-          
-      
-      
-      
-    
+      </p>
+                
     </div>
 
   <!--End of Day Two -->
